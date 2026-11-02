@@ -1,6 +1,13 @@
 # 1MD031-lab-2026
 
-This template should help get you started developing with Vue 3 in Vite.
+Use this skeleton code to work with the individual lab in the course Interface Programming with a User Perspective. Follow instructions here:
+
+https://educaora.com/@user-2314/Web_Developing_Tutorials_Introduction
+https://educaora.com/@user-2314/HTML
+https://educaora.com/@user-2314/Styling_and_CSS
+https://educaora.com/@user-2314/JavaScript_and_Vue
+
+
 
 ## Recommended IDE Setup
 

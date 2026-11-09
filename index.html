@@ -1,1 +1,111 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>BurgerOnline</title>
+       <meta charset="utf-8"/>
+   </head>
+<body>
+    <header>
+        <h1>Välkommen till BurgerOnline</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Våra hamburgare </h2>
+            <p>Väj bland våra burgare nedan</p>
+            <div style="display: inline-block">
+                <h2>Unicorn Burger</h2>
+            <img src="https://www.max.se/contentassets/cd371a6e33594010a6935fcbc8959468/69232_c4_unicornburger_singel_int_hemsida_1920x1787px_se.jpg?format=webp&width=1454&sharpen=5&sigma=1,4&threshold=0" style="width:220px">
+            <h4>Ingredienser:</h4>
+            <ul>
+                <li>Sojaprotein</li>
+                <li>Unicornsås</li> 
+                <li>Sallad</li>
+                <li>Tomat</li>
+                <li>Lök</li>
+                <li>Ost</li>
+            </ul>
+            <h4>Pris: 69 kr</h4>
+            </div>
+            <div style="display: inline-block">
+                <h2>Flying Burger</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1yoS38rTCdkq3hSS_vXEO84P8v_lP_XzQLJUWKauVw&s" style="width:220px">
+            <h4>Ingredienser:</h4>
+            <ul>
+                <li>Kyckling</li>
+                <li>Hamburgerdressing</li> 
+                <li>Sallad</li>
+                <li>Tomat</li>
+                <li>Ost</li>
+            </ul>
+            <h4>Pris: 59 kr</h4>
+            </div>
+            <div style="display: inline-block">
+                <h2>Yummylicios</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKv6tGx602nxGLMZhxhEeZz05dXTOrmyy8_239pGDcYA&s=10" style="width:220px">
+            <h4>Ingredienser:</h4>
+            <ul>
+                <li>Nötkött</li>
+                <li>Ost</li> 
+                <li>Ketchup</li>
+                <li>Sallad</li>
+                <li>Saltgurka</li>
+                <li>Senap</li>
+            </ul>
+            <h4>Pris: 29 kr</h4>
+            </div>
+        </section>
+        <section id="Beställ här">
+        
+            <h2>Beställningsinformation</h2>
+            <p>Fyll i dina kontaktuppgifter nedan och klicka på "Beställ" för att skicka din order.</p>
+            <form>
+                <p>
+    <label for="namn">Namn</label><br>
+    <input type="text" id="namn" name="fn" required="required" placeholder="För- & efternamn">
+</p>
+<p>
+    <label for="adress">Adress</label><br>
+    <input type="text" id="" name="ln" placeholder="Gatunamn">
+</p>
+<p> 
+    <label for="husnummer">Husnummer</label><br>
+    <input type="number" id="" name="ln" placeholder="Husnummer">
+</p>
+<p>
+    <label for="email">Mejl</label><br>
+    <input type="email" id="email" name="em" required="required" placeholder="Mejladdress">
+</p>
+            </form>
+            <p>
+                <label for="Betalning">Välj betalningsmetod</label><br>
+                <select name="Betalning" id="Betalning">
+                    <option value="Kort">Kort</option>
+                    <option value="Swish">Swish</option>
+                    <option value="Klarna">Klarna</option>
+                </select>
+            </p>
+            <p> Kön</p>
+            <input type="radio" id="man" name="gender" value="man">
+            <label for="man">Man</label><br>
+            <input type="radio" id="kvinna" name="gender" value="kvinna">
+            <label for="kvinna">Kvinna</label><br>
+            <input type="radio" id="annat/vill ej ange" name="gender" value="annat/vill ej ange">
+            <label for="annat/vill ej ange">Annat/vill ej ange</label><br>
+            <button type="submit">
+                <img src="https://img.magnific.com/premium-vector/retro-cartoon-funny-burger-characters-mascot-vintage-fast-food-hamburger-vector-illustration_693602-632.jpg" style="width:30px">
+                Skicka Beställning
+            </button>
+        </section>
+    </main>
+    <footer>
+        <h3>Kontakta oss</h3>
+            Tel.nr: 072-1234567
+            <br/>
+            Mejl: Burgare@online.se
+            <br/>
+            Adress: Hamburgarvägen 1, 123 45 Hamburgarstaden
+    </footer>
+</body>
+
+

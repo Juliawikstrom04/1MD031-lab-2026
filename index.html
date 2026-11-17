@@ -3,50 +3,56 @@
    <head>
        <title>BurgerOnline</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="/css/style.css">
    </head>
 <body>
     <header>
-        <h1>Välkommen till BurgerOnline</h1>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/043/533/183/small/a-green-christmas-tree-with-many-green-and-gold-ornaments-photo.jpeg">
+         <h1>Välkommen till BurgerOnline</h1>
     </header>
 
     <main>
-        <section>
+    <section id="hamburgare">
             <h2>Våra hamburgare </h2>
             <p>Väj bland våra burgare nedan</p>
-            <div style="display: inline-block">
+            <div class="wrapper">
+            <div>
                 <h2>Unicorn Burger</h2>
-            <img src="https://www.max.se/contentassets/cd371a6e33594010a6935fcbc8959468/69232_c4_unicornburger_singel_int_hemsida_1920x1787px_se.jpg?format=webp&width=1454&sharpen=5&sigma=1,4&threshold=0" style="width:220px">
+            <img src="https://www.max.se/contentassets/cd371a6e33594010a6935fcbc8959468/69232_c4_unicornburger_singel_int_hemsida_1920x1787px_se.jpg?format=webp&width=1454&sharpen=5&sigma=1,4&threshold=0" style="width:160px">
             <h4>Ingredienser:</h4>
             <ul>
                 <li>Sojaprotein</li>
-                <li>Unicornsås</li> 
+                <li><span class="allergen">Bröd</span></li>
+                <li><span class="allergen">Unicornsås</span></li> 
                 <li>Sallad</li>
                 <li>Tomat</li>
                 <li>Lök</li>
-                <li>Ost</li>
+                <li><span class="allergen"> Ost</li>
             </ul>
             <h4>Pris: 69 kr</h4>
             </div>
-            <div style="display: inline-block">
+            <div>
                 <h2>Flying Burger</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1yoS38rTCdkq3hSS_vXEO84P8v_lP_XzQLJUWKauVw&s" style="width:220px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH1yoS38rTCdkq3hSS_vXEO84P8v_lP_XzQLJUWKauVw&s" style="width:160px">
             <h4>Ingredienser:</h4>
             <ul>
                 <li>Kyckling</li>
-                <li>Hamburgerdressing</li> 
+                <li><span class="allergen">Bröd</span></li>
+                <li><span class="allergen">Dressing</span></li> 
                 <li>Sallad</li>
                 <li>Tomat</li>
-                <li>Ost</li>
+                <li><span class="allergen">Ost</span></li>
             </ul>
             <h4>Pris: 59 kr</h4>
             </div>
-            <div style="display: inline-block">
+            <div>
                 <h2>Yummylicios</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKv6tGx602nxGLMZhxhEeZz05dXTOrmyy8_239pGDcYA&s=10" style="width:220px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKv6tGx602nxGLMZhxhEeZz05dXTOrmyy8_239pGDcYA&s=10" style="width:160px">
             <h4>Ingredienser:</h4>
             <ul>
                 <li>Nötkött</li>
-                <li>Ost</li> 
+                <li><span class="allergen">Bröd</span></li>
+                <li><span class="allergen">Ost</span></li> 
                 <li>Ketchup</li>
                 <li>Sallad</li>
                 <li>Saltgurka</li>
@@ -54,8 +60,9 @@
             </ul>
             <h4>Pris: 29 kr</h4>
             </div>
+            </div>
         </section>
-        <section id="Beställ här">
+        <section id="bestall">
         
             <h2>Beställningsinformation</h2>
             <p>Fyll i dina kontaktuppgifter nedan och klicka på "Beställ" för att skicka din order.</p>
